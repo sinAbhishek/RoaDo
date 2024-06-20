@@ -5,8 +5,8 @@ const Card = ({ value }) => {
   const options = {
     chart: {
       type: "donut",
-      width: 250, // Adjust the overall width of the chart
-      height: 250, // Adjust the overall height of the chart
+      width: 250,
+      height: 250,
     },
     series: [25, 25, 50],
 
@@ -19,7 +19,7 @@ const Card = ({ value }) => {
     plotOptions: {
       pie: {
         donut: {
-          size: "65%", // Adjust the size of the donut hole (inner radius)
+          size: "65%",
           labels: {
             show: true,
             name: {
@@ -35,8 +35,6 @@ const Card = ({ value }) => {
               padding: "0px",
               color: "#373d3f",
               formatter: () => {
-                // Calculate the total value and return it
-
                 return 12345;
               },
             },
