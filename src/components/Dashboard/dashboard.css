@@ -1,0 +1,12 @@
+.upcoming{
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFCB49 100%);
+
+}
+.ongoing{
+    background: linear-gradient(90deg, #FFFFFF 0%, #7464FF 100%);
+
+}
+.completed{
+    background: linear-gradient(90deg, #FFFFFF 0%, #4FD2B5 100%);
+
+}
